@@ -29,7 +29,7 @@ class Reservation(models.Model):
 
     # audit fields
     created_at=models.DateTimeField(auto_now_add=True)
-    updated_at=models.DateTimeField()
+    updated_at=models.DateTimeField(auto_now=True)
     created_by=models.ForeignKey(User, on_delete=models.SET_NULL, null=True, related_name='created_reservations')
     updated_by=models.ForeignKey(User, on_delete=models.SET_NULL, null=True, related_name='updated_reservations')
 

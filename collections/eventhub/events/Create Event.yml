@@ -1,0 +1,27 @@
+info:
+  name: Create Event
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{base_url}}events/"
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Tech Meetup Chennai",
+        "venue": "IIT Madras Research Park",
+        "date": "2026-06-15",
+        "total_seats": 100,
+        "available_seats": 100
+      }
+  auth:
+    type: bearer
+    token: "{{access_token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -26,7 +26,7 @@ urlpatterns = [
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
 
     # app endpoints
-    path("api/events/", include("events.urls")),
-    path("api/reservations/", include("reservations.urls")),
+    path("api/", include("events.urls")),
+    path("api/", include("reservations.urls")),
     path("api/profiles/", include("profiles.urls")),
 ]

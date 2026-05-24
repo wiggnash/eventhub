@@ -2,3 +2,7 @@ name: event_hub_local
 variables:
   - name: base_url
     value: http://127.0.0.1:8000/api/
+  - name: access_token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5NjEzNjg5LCJpYXQiOjE3Nzk2MTE4ODksImp0aSI6ImE4NDlkZDVjYjczMjQ4OGU4MzE2ZjY1NGM4YmZjZTFlIiwidXNlcl9pZCI6IjIifQ.pjoPFc8AOHnIWC3ODprSN-J47YEQwpdEmlCI-CA8_Xs
+  - name: refresh_token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc3OTY5ODI4OSwiaWF0IjoxNzc5NjExODg5LCJqdGkiOiI3OTkzMDg2YzNmZDU0MDBmOTdjOTg1Y2NiMWNlYWRjMSIsInVzZXJfaWQiOiIyIn0.YlvUESvmQ23PEw3yYCwgOJMWPOPSVcH3B59l2m_x2Us
