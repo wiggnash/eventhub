@@ -1,0 +1,15 @@
+info:
+  name: Create a reservation
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: "{{base_url}}reservations/"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
